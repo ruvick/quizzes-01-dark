@@ -45,6 +45,10 @@
 		background-image: url('../img/bg/main-bg-mob-03.jpg');
 	}
 
+	.page-thanks {
+		background-image: url('../img/bg/main-bg-mob-thanks.jpg');
+	}
+
 	.header {
 		position: absolute;
 		width: 100%;
@@ -211,6 +215,10 @@
 	.footer__img-mob {
 		top: -5%;
 	}
+
+	.about__btn-thanks {
+		min-height: 87px;
+	}
 }
 
 @media (max-width: 460px) {
@@ -263,6 +271,10 @@
 
 	.page-single-04 {
 		background-image: url('../img/bg/main-bg-mob-515-03.jpg');
+	}
+
+	.page-thanks {
+		background-image: url('../img/bg/main-bg-mob-515-thanks.jpg');
 	}
 
 	.about ._container {
