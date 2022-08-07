@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+"title":"Страница-1"
+})
+
+<body>
+	<div class="wrapper wrapper-single-01">
+		@@include('_header.html',{})
+		<main class="page page-single-01">
+
+			<section id="about" class="about">
+				<div class="_container">
+					<h1 class="about__title">
+						Построим надежный дом <br>
+						<span>
+							из кирпича премиум класса <br>
+							"под ключ" за 180 дней в Казани
+						</span>
+					</h1>
+					<p class="about__subtitle">
+						<span class="about__subtitle-trait">&mdash;</span>
+						Ответьте на 5 простых вопросов и получите <br>
+						расчет стоимости дома с точностью до рубля, <br>
+						<span>а также каталог лучших проектов 2022 года.</span>
+					</p>
+					<a href="#" class="about__btn btn">Получить расчет</a>
+				</div>
+			</section>
+
+		</main>
+		@@include('_footer.html',{})
+	</div>
+	@@include('_popup.html',{})
+	@@include('_js.html',{})
+</body>
+
+</html>
